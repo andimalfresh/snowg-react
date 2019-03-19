@@ -3,8 +3,14 @@ import React from "react"
 
 const About  = props => {
 return (
-        <div className="componentContainer">
-            This is the NavBar component
+        <div className="navbarContainer">
+            <ul> 
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+                <li>Store</li>
+                <li>Team</li>
+            </ul>
         </div>
     )
 
