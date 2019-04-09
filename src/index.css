@@ -7,10 +7,15 @@ nav {
 .App {
   height: 100vh;
   width: 100vw;
-  background-color: brown;
+  background-color: black;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+}
+.contactForm {
+  margin: 25px;
+  display: flex;
   flex-direction: column;
 }
 .wrapperContainer {

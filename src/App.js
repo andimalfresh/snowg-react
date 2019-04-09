@@ -8,6 +8,7 @@ import Contact from "./components/contact"
 import Custom from "./components/custom"
 import Team from "./components/team"
 import Desktopfeature from "./components/desktopfeature"
+import Sponsorship from "./components/sponsorship"
 
 class App extends Component {
   render() {
@@ -21,8 +22,9 @@ class App extends Component {
             <Route path ="/contact" render={() => (<Contact />)}/>
             <Route path ="/team" render={() => (<Team />)}/> 
             <Route path ="/custom" render={() => (<Custom />)}/>
+            <Route path ="/sponsorship" render={() => (<Sponsorship />)}/>
         </div>
-        <div className="footerContainer">  Hello SnowG 2.0 </div>
+        <div className="footerContainer">(c) 2019 SnowG Streetwear</div>
       </div>
     );
   }

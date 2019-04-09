@@ -11,10 +11,11 @@ return (
                         <i class="fas fa-bars"></i>
                     </button>
                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                        <a class="dropdown-item" href="about.html">About</a>
-                        <a class="dropdown-item" href="custom.html">Custom Screenprinting</a>
+                        <a class="dropdown-item" href="/about">About</a>
+                        <a class="dropdown-item" href="/custom">Custom Screenprinting</a>
                         <a class="dropdown-item" href="https://snowg.bigcartel.com/" target="_blank" rel="noopener noreferrer">Catalog</a>
-                        <a class="dropdown-item" href="contact.html">Contact</a>
+                        <a class="dropdown-item" href="/contact">Contact</a>
+                        <a class="dropdown-item" href="/sponsorship">Sponsorship</a>
                     </div>
                 </div>
                     
